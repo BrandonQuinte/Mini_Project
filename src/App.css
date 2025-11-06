@@ -1,17 +1,18 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #c7f9cc; 
+  background-color: #ffffff; /* Fondo blanco */
 }
 
 .App {
   text-align: center;
 }
 
+/* NAVBAR */
 .navbar {
   display: flex;
   align-items: center;
-  background-color: #38b000; 
+  background-color: #e8f5e9; /* Verde muy suave */
   padding: 10px 40px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -19,8 +20,8 @@ body {
 .logo-circle {
   width: 45px;
   height: 45px;
-  background-color: #006400; 
-  color: #eaffea;
+  background-color: #2e7d32; /* Verde oscuro elegante */
+  color: #ffffff;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -40,29 +41,29 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: #06370c;
+  color: #2e7d32;
   font-weight: bold;
   transition: color 0.3s;
 }
 
 .nav-links a:hover {
-  color: #eaffea;
+  color: #1b5e20;
 }
 
-
+/* HEADER */
 .header {
-  background-color: #70e000; 
-  color: #06370c;
+  background-color: #f1f8e9; /* Blanco con toque verde */
+  color: #1b5e20;
   padding: 25px 0;
 }
 
 hr {
   border: 0;
-  border-top: 2px solid #007f5f;
+  border-top: 2px solid #c8e6c9;
   margin: 20px 0;
 }
 
-
+/* SECCIONES */
 .sections {
   display: flex;
   flex-direction: column;
@@ -78,8 +79,8 @@ hr {
 }
 
 .box {
-  background-color: #d8f3dc; 
-  border: 2px solid #95d5b2;
+  background-color: #ffffff; /* Caja blanca */
+  border: 2px solid #a5d6a7;
   border-radius: 8px;
   width: 200px;
   height: 100px;
@@ -87,17 +88,19 @@ hr {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  color: #06370c;
+  color: #2e7d32;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 /* FORMULARIO */
 .form-container {
-  background-color: #e9f5eb;
+  background-color: #ffffff;
   width: 320px;
   margin: 0 auto;
   padding: 20px;
   border-radius: 8px;
-  border: 1px solid #95d5b2;
+  border: 1px solid #c8e6c9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
 }
 
 .form {
@@ -108,7 +111,7 @@ hr {
 
 .form label {
   margin-top: 10px;
-  color: #06370c;
+  color: #1b5e20;
 }
 
 .form input,
@@ -117,14 +120,14 @@ hr {
   padding: 8px;
   margin-top: 5px;
   border-radius: 4px;
-  border: 1px solid #95d5b2;
-  background-color: #fafffa;
+  border: 1px solid #c8e6c9;
+  background-color: #fafafa;
 }
 
 button {
   margin-top: 15px;
   padding: 10px;
-  background-color: #38b000; 
+  background-color: #2e7d32; /* Verde oscuro */
   color: #ffffff;
   border: none;
   border-radius: 4px;
@@ -134,14 +137,15 @@ button {
 }
 
 button:hover {
-  background-color: #2d6a4f; /* Verde más oscuro al pasar el mouse */
+  background-color: #1b5e20; /* Más oscuro al pasar */
 }
 
 /* FOOTER */
 .footer {
-  background-color: #38b000;
-  color: #ffffff;
+  background-color: #e8f5e9;
+  color: #2e7d32;
   padding: 10px 0;
+  border-top: 1px solid #c8e6c9;
 }
 
 /* RESPONSIVE */
